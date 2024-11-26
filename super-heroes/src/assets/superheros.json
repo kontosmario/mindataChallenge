@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Superman",
+    "alterEgo": "Clark Kent",
+    "strength": 100,
+    "speed": 95,
+    "intelligence": 85,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/791.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Batman",
+    "alterEgo": "Bruce Wayne",
+    "strength": 30,
+    "speed": 20,
+    "intelligence": 100,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/639.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Spider-Man",
+    "alterEgo": "Peter Parker",
+    "strength": 55,
+    "speed": 60,
+    "intelligence": 80,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/133.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Wonder Woman",
+    "alterEgo": "Diana Prince",
+    "strength": 95,
+    "speed": 90,
+    "intelligence": 85,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/807.jpg"
+  },
+  {
+    "id": 5,
+    "name": "The Flash",
+    "alterEgo": "Barry Allen",
+    "strength": 45,
+    "speed": 100,
+    "intelligence": 70,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/891.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Iron Man",
+    "alterEgo": "Tony Stark",
+    "strength": 40,
+    "speed": 30,
+    "intelligence": 100,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/85.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Thor",
+    "alterEgo": "Thor Odinson",
+    "strength": 100,
+    "speed": 85,
+    "intelligence": 70,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/140.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Hulk",
+    "alterEgo": "Bruce Banner",
+    "strength": 100,
+    "speed": 40,
+    "intelligence": 80,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/32.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Captain America",
+    "alterEgo": "Steve Rogers",
+    "strength": 70,
+    "speed": 60,
+    "intelligence": 70,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/274.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Green Lantern",
+    "alterEgo": "Hal Jordan",
+    "strength": 80,
+    "speed": 70,
+    "intelligence": 80,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/703.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Aquaman",
+    "alterEgo": "Arthur Curry",
+    "strength": 85,
+    "speed": 75,
+    "intelligence": 65,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/634.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Black Panther",
+    "alterEgo": "T'Challa",
+    "strength": 60,
+    "speed": 70,
+    "intelligence": 95,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/247.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Doctor Strange",
+    "alterEgo": "Stephen Strange",
+    "strength": 50,
+    "speed": 40,
+    "intelligence": 90,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/291.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Deadpool",
+    "alterEgo": "Wade Wilson",
+    "strength": 65,
+    "speed": 65,
+    "intelligence": 65,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/835.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Wolverine",
+    "alterEgo": "Logan",
+    "strength": 85,
+    "speed": 60,
+    "intelligence": 60,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/161.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Black Widow",
+    "alterEgo": "Natasha Romanoff",
+    "strength": 30,
+    "speed": 35,
+    "intelligence": 75,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/248.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Cyclops",
+    "alterEgo": "Scott Summers",
+    "strength": 50,
+    "speed": 45,
+    "intelligence": 70,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/144.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Green Arrow",
+    "alterEgo": "Oliver Queen",
+    "strength": 40,
+    "speed": 45,
+    "intelligence": 85,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/566.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Shazam",
+    "alterEgo": "Billy Batson",
+    "strength": 100,
+    "speed": 90,
+    "intelligence": 65,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/722.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Ant-Man",
+    "alterEgo": "Scott Lang",
+    "strength": 50,
+    "speed": 30,
+    "intelligence": 85,
+    "image": "https://www.superherodb.com/pictures2/portraits/10/050/49.jpg"
+  }
+]

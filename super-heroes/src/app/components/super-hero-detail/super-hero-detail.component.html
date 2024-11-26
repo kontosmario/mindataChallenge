@@ -1,0 +1,14 @@
+<div class="detail-hero-dialog">
+  <h1 mat-dialog-title>{{ hero.name }}</h1>
+  <div mat-dialog-content>
+    <p><strong>Alter Ego:</strong> {{ hero.alterEgo }}</p>
+    <p><strong>Strength:</strong> {{ hero.strength }}</p>
+    <p><strong>Strength:</strong> {{ hero.speed }}</p>
+    <p><strong>Strength:</strong> {{ hero.intelligence }}</p>
+  </div>
+  <div mat-dialog-actions align="end">
+    <button mat-raised-button color="primary" (click)="edit(hero)">Edit</button>
+    <button mat-raised-button color="warn" (click)="deleteHero(hero.id)">Delete</button>
+    <button mat-raised-button (click)="close()">Close</button>
+  </div>
+</div>

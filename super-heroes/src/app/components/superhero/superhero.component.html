@@ -1,0 +1,41 @@
+<div class="heroes-container">
+  <div class="heroes-data" *ngFor="let hero of superheroes">
+    <h3>{{ hero.name }}</h3>
+    <p><strong>Alter Ego:</strong> {{ hero.alterEgo }}</p>
+    <p><strong>Strength:</strong> {{ hero.strength }}</p>
+    <p><strong>Strength:</strong> {{ hero.speed }}</p>
+    <p><strong>Strength:</strong> {{ hero.intelligence }}</p>
+    <div>
+      <button
+        mat-raised-button
+        color="primary"
+        (click)="openHeroDetailsModal(hero)"
+      >
+        Info
+      </button>
+      <button mat-raised-button  (click)="editHero(hero)">
+        Edit
+      </button>
+    </div>
+    <button mat-raised-button color="warn" (click)="deleteHero(hero.id)">Delete</button>
+  </div>
+</div>
+
+<div class="heroes-pagination">
+  <button
+    mat-raised-button
+    (click)="previousPage()"
+    [disabled]="currentPage === 1"
+  >
+    Previous
+  </button>
+  <span>Page {{ currentPage }} of {{ totalPages() }}</span>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="nextPage()"
+    [disabled]="currentPage === totalPages()"
+  >
+    Next
+  </button>
+</div>

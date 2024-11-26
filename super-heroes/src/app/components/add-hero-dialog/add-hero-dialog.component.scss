@@ -1,0 +1,12 @@
+.dialog-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+::ng-deep {
+  mat-form-field {
+    width: 100%;
+  }
+}

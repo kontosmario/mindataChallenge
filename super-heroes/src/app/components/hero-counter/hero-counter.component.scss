@@ -1,0 +1,19 @@
+.hero-counter {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  gap: 8px;
+  background: #cbcbcb;
+  width: 70px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 5px 13px 0px #4a4b4d;
+  justify-content: center;
+}
+.icon {
+  font-size: 30px;
+}
+.count {
+  color: #007bff;
+}

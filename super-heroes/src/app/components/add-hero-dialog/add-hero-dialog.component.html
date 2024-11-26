@@ -1,0 +1,66 @@
+<h1 mat-dialog-title>Add a New Hero</h1>
+<div class="dialog-content" mat-dialog-content [formGroup]="heroForm">
+  <mat-form-field appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput formControlName="name" appUppercase/>
+    <mat-error
+      *ngIf="heroForm.get('name')?.invalid && heroForm.get('name')?.touched"
+    >
+      Name is required and must be at least 2 characters long.
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Alter Ego</mat-label>
+    <input matInput formControlName="alterEgo" />
+    <mat-error
+      *ngIf="
+        heroForm.get('alterEgo')?.invalid && heroForm.get('alterEgo')?.touched
+      "
+    >
+      Alter Ego is required.
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Strength</mat-label>
+    <input matInput type="number" formControlName="strength" />
+    <mat-error
+      *ngIf="
+        heroForm.get('strength')?.invalid && heroForm.get('strength')?.touched
+      "
+    >
+      Strength must be a positive number.
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Speed</mat-label>
+    <input matInput type="number" formControlName="speed" />
+    <mat-error
+      *ngIf="heroForm.get('speed')?.invalid && heroForm.get('speed')?.touched"
+    >
+      Speed must be a positive number.
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Intelligence</mat-label>
+    <input matInput type="number" formControlName="intelligence" />
+    <mat-error
+      *ngIf="
+        heroForm.get('intelligence')?.invalid &&
+        heroForm.get('intelligence')?.touched
+      "
+    >
+      Intelligence must be a positive number.
+    </mat-error>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions align="end">
+  <button mat-button (click)="cancel()">Cancel</button>
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="save()"
+    [disabled]="heroForm.invalid"
+  >
+    Save
+  </button>
+</div>
